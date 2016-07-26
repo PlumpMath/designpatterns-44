@@ -8,7 +8,7 @@ namespace AdapterUnitTest
     public class AdapterUnitTest
     {
         [TestMethod]
-        public void GivenAPig_UseFlyingAnimalAdapter_GetFlyingPig()
+        public void Adapter_GivenAPig_UseFlyingAnimalAdapter_GetFlyingPig()
         {
             //arrange
             var pig = new Pig("Piggy");
@@ -21,7 +21,7 @@ namespace AdapterUnitTest
         }
 
         [TestMethod]
-        public void GivenAPenguin_UseFlyingAnimalAdapter_GetNonFlyingPenguin()
+        public void Adapter_GivenAPenguin_UseFlyingAnimalAdapter_GetNonFlyingPenguin()
         {
             //arrange
             var penguin = new Penguin("Eric");
