@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterUnitTest", "Adapter\AdapterUnitTest\AdapterUnitTest.csproj", "{856DC53E-AF26-4919-9E5E-123B7E544DD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeUnitTeset", "Bridge\BridgeUnitTeset\BridgeUnitTeset.csproj", "{946E1454-0E7F-488A-A426-FDE881F01CC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeUnitTest", "Bridge\BridgeUnitTest\BridgeUnitTest.csproj", "{946E1454-0E7F-488A-A426-FDE881F01CC4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge\Bridge.csproj", "{269D5206-4A1B-42C1-8BFB-B48BCAADF798}"
 EndProject
