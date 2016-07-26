@@ -2,20 +2,7 @@
 This project was created to refine my knowledge of design patterns. In particularlly, the following design patterns:
 
 ### Adapter
-Can also be a type of wrapper. Adapters can abstract a make collection non-conforming classes confirm to a common abstraction.
-
-interface IAdapter
-	+DoSomething();
-
-class Client
-	- IAdapter _adapter;
-	
-class Adapter
-	- Adaptee _adaptee;
-	+DoSomething(); // calls _adaptee.DoSomethingElse();
-	
-class Adaptee
-	+DoSomethingElse();
+Adapters can abstract a make collection non-conforming classes confirm to a common abstraction. Can also be a type of wrapper. 
 
 Example:
 - ADO .NET
@@ -26,6 +13,9 @@ Example:
 	
 
 ### Bridge
+A way to connect two abstractions so that the concrete implementations are connectioned but can be extended independantly. Two abstract classes, where one composes of the other.
+ “Decouple an abstraction from its implementation so the two can vary independently.” (GOF) 
+
 ### Builder
 ### Chain of Responsibility
 ### Command
