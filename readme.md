@@ -17,6 +17,8 @@ A way to connect two abstractions so that the concrete implementations are conne
  “Decouple an abstraction from its implementation so the two can vary independently.” (GOF) 
 
 ### Builder
+Separates the construction of a complex object from its representation so that the same construction process can create different representations. Useful when the order of the method calls to build the object is important.
+
 ### Chain of Responsibility
 ### Command
 ### Composite
