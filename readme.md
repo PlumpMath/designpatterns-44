@@ -1,5 +1,5 @@
 ## Design Patterns Dojo ##
-This project was created to refine my knowledge of design patterns. In particularlly, the following design patterns:
+This project was created to refine my knowledge of design patterns. It is based on the Design Pattern Library found on Pluralsight.
 
 ### Adapter
 Adapters can abstract a make collection non-conforming classes confirm to a common abstraction. Can also be a type of wrapper. 
@@ -13,8 +13,8 @@ Example:
 	
 
 ### Bridge
-A way to connect two abstractions so that the concrete implementations are connectioned but can be extended independantly. Two abstract classes, where one composes of the other.
- “Decouple an abstraction from its implementation so the two can vary independently.” (GOF) 
+A way to connect two abstractions so that the concrete implementations are connected but can be extended independently. Two abstract classes, where one composes of the other.
+ "Decouple an abstraction from its implementation so the two can vary independently." (GOF) 
 
 ### Builder
 Separates the construction of a complex object from its representation so that the same construction process can create different representations. Useful when the order of the method calls to build the object is important.
