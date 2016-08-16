@@ -20,6 +20,8 @@ A way to connect two abstractions so that the concrete implementations are conne
 Separates the construction of a complex object from its representation so that the same construction process can create different representations. Useful when the order of the method calls to build the object is important.
 
 ### Chain of Responsibility
+Like a linked list of nodes that propagates a method call until one of the nodes can handles it. Always call the head method and one of the nodes will return the handled result via the chain.
+
 ### Command
 ### Composite
 ### Decorator
