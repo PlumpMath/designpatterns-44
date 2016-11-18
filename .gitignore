@@ -1,4 +1,7 @@
-**/bin/*
-**/obj/*
-**/TestResults/*
-**/.vs/*
+**/obj/**
+**/bin/**
+**/Release/*
+.sync
+.vs
+/packages
+/TestResults
